@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'p9x-g5--a_4a3km)#ecr9d!1cubitbqn11aqq%+uihmjwdu#8e'
+SECRET_KEY = 'p#nn1y^h3nk1=s39-%aa=vbpbm8qavqzw88(0*(t603ay=nl1$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rest-api-johnpooch.c9users.io']
 
 
 # Application definition
@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'vehicles',
+    'rest_framework',
+    
+    
 ]
 
 MIDDLEWARE = [
